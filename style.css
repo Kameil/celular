@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 16px;
+}
+
+body {
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(231, 225, 230);
+}
+
+.celular {
+    min-height: 700px;
+    min-width: 350px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    outline: 4px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#camera {
+    width: 13px;
+    height: 13px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+}
+
+
+.icondebaixo {
+    user-select: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    bottom: 20px;
+}
+
+#cameradebaixo {
+    right: 20px;
+}
+#lanterna {
+    left: 20px;
+}
+
+#bardebaixo {
+    background-color: black;
+    width: 40%;
+    opacity: 0.3;
+    height: 5px;
+    position: absolute;
+    bottom: 3px;
+    border-radius: 10px;
+}
+
